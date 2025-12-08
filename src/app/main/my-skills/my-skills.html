@@ -1,0 +1,21 @@
+<div class="my-skills" id="skills">
+    <h2>My <span>Skills</span></h2>
+
+    <div class="container container-my-skills">
+
+        <div class="block" *ngFor="let skill of skills">
+
+            <div class="img">
+                <img [src]="'/assets/images/' + skill.img" class="skill-img" alt="">
+            </div>
+
+            <div class="lebel-range-wrapper">
+                <label>{{ skill.name }}</label>
+
+                <app-progress-bar [value]="skill.value"></app-progress-bar>
+            </div>
+
+        </div>
+
+    </div>
+</div>

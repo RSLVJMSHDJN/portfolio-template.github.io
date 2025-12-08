@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+html {
+    scroll-behavior: smooth;
+}
+ 
+body {
+    // max-width: 1920;
+    // margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+// .container {
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     padding: 0 40px;
+// }

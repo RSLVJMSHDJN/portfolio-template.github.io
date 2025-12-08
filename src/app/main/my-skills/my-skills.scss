@@ -1,0 +1,48 @@
+.my-skills {
+    // max-width: 1920px;
+    background-color: #1F242D;
+    padding-top: 114px;
+    margin: auto;
+}
+
+.my-skills h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #fff;
+    padding-bottom: 77px;
+}
+
+.my-skills h2 span {
+    color: #00EEFF;
+}
+
+.container-my-skills {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 40px;
+    display: grid;
+    padding-bottom: 221px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 128px;
+    row-gap: 35px;
+}
+
+.container-my-skills label {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.skill-img {
+    width: 100px;
+    height: 100px;
+}
+
+.block {
+    display: flex;
+    gap: 23px;
+}

@@ -1,0 +1,30 @@
+footer {
+    background-color: rgba(35, 40, 50, 1);
+    // width: 1920px;
+    margin: auto;
+    padding-top: 23px;
+    padding-bottom: 29px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer a img {
+   width: 48px;
+   height: 48px;
+   border-radius: 5px;
+   border: solid 3px rgba(0, 238, 255, 1);
+}

@@ -1,0 +1,139 @@
+.contact-me {
+    // max-width: 1920px;
+    margin: auto;
+    background-color: rgba(50, 57, 70, 1);
+    padding-bottom: 122px;
+}
+
+.contact-me-container {
+    min-width: 1200px;
+    margin: auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    gap: 148px;
+}
+
+.contact-me h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #fff;
+    padding-top: 118px;
+    padding-bottom: 94px;
+}
+
+.contact-me h3 span {
+    color: rgba(0, 238, 255, 1);
+}
+
+
+.contact-content {
+    width: 459px;
+    height: 295px;
+
+}
+
+.contact-content a img {
+    width: 147px;
+    height: 44px;
+
+}
+
+.contact-content p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 33px;
+    padding-bottom: 65px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: start;
+    gap: 57px;
+}
+
+.contacts img {
+    width: 32px;
+    height: 32px;
+}
+
+.form-contact {}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+form .inputs {
+    display: grid;
+    grid-template-columns: 284px 284px;
+    gap: 22px;
+}
+
+.contact-input {
+    width: 284px;
+}
+
+form .email {
+    width: 589px;
+}
+
+form input {
+    height: 53px;
+    border-radius: 10px;
+    background-color: rgba(31, 36, 45, 0.8);
+    color: rgba(255, 255, 255, 1);
+    border: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 19px;
+}
+
+form input::placeholder {
+    color: rgba(255, 255, 255, 1);
+}
+
+form textarea {
+    width: 589px;
+    height: 117px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: rgba(31, 36, 45, 0.8);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 19px;
+    resize: none;
+}
+
+form textarea::placeholder {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 16px;
+   line-height: 24px;
+}
+
+form button {
+    width: 589px;
+    height: 53px;
+    background-color: rgba(31, 36, 45, 0.8);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border: transparent;
+    border-radius: 10px;
+}
+
+form button:hover {
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
