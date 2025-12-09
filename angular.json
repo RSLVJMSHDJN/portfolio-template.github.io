@@ -29,6 +29,7 @@
             "styles": [
               "src/styles.scss"
             ],
+            "baseHref": "/portfolio-template.github.io/",
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
