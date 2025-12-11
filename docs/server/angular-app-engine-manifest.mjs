@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/portfolio-template',
+  basePath: '/portfolio-template.github.io',
   supportedLocales: {
   "en-US": ""
 },
