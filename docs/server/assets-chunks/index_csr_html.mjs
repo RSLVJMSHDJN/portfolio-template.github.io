@@ -13,6 +13,6 @@ export default `<!doctype html>
 <style>*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Montserrat,sans-serif}</style><link rel="stylesheet" href="styles-4OQMKPCM.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-4OQMKPCM.css"></noscript></head>
 <body ngcm="">
   <app-root></app-root>
-<script src="main-B66DAB3P.js" type="module"></script></body>
+<script src="main-O3GMOQT3.js" type="module"></script></body>
 </html>
 `;
